@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  text-align: center;
+  color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.logo img {
+  max-width: 200px;
+  margin-top: 50px;
+}
+
+#nav-list {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#nav-list li {
+  list-style-type: none;
+  border-right: 2px yellow solid;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+#nav-list li:last-child {
+  border-right: none;
+}
+
+#nav-list li:hover {
+  color: #000000;
+  background-color: yellow;
+}
+
+
+.logo hr {
+  background-color: yellow;
+  height: 3px;
+  margin-top: 10px;
+}
+
+#input {
+  border: yellow 2px solid;
+  border-radius: 30px;
+  width: 200px;
+  height: 40px;
+  margin-top: 50px;
+}
+
+.robot {
+  max-width: 200px;
+  position: absolute;
+  top: 60%;
+  left: 80%;
+}
+
+#info {
+  margin: 30px;
+}
+
+#info button {
+  margin-right: 30px;
+  padding: 5px 10px;
+  border-radius: 30px;
+  color: #000000;
+  background-color: yellow;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#details {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.more-info-btn {
+  margin-left: 30px;
+  padding: 3px 5px;
+  border-radius: 30px;
+  color: #000000;
+  background-color: yellow;
+  cursor: pointer;
+}
